@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+:root {
+    --Galactic-Blue: #755CDE;
+    --Summer-Yellow: #F6A560;
+    --Pink: #F39E9E;
+    --Light-Red: #EB7565;
+    --Cyan: #61C4B7;
+    --Purple: #552049;
+    --Black: #030303;
+    --Medium-Brown: #7A746E;
+    --Light-Cream: #FFF7F0;
+    --Primary-Font: 'Plus Jakarta Sans', sans-serif;
+}
+
+body {
+    background-color: var(--Light-Cream);
+}
+
+h1 {
+  font-family: var(--Primary-Font);
+}
+
+h2 {
+  font-family: var(--Primary-Font);
+}
+h3 {
+  font-family: var(--Primary-Font);
+}
+
+p {
+    font-family: var(--Primary-Font);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; 
+}
+
+.button1 {
+    border: none;
+    border-radius: 28px;
+    background: var(--Black, #030303);
+    color: var(--Light-Cream);
+    cursor: pointer;
+    padding: 14px 45px;
+    font-family: var(--Primary-Font);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.button2 {
+    border: none;
+    border-radius: 28px;
+    background: var(--4---Light-Red, #EB7565);
+    color: var(--Light-Cream);
+    cursor: pointer;
+    padding: 14px 45px;
+    font-family: var(--Primary-Font);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.button1:hover {
+    border: none;
+    border-radius: 28px;
+    background: var(--1---Galactic-Blue, #755CDE);
+    cursor: pointer;
+}
+
+.button2:hover {
+    border: none;
+    border-radius: 28px;
+    background: var(--2---Summer-Yellow, #F6A560);
+    cursor: pointer;
+}
+
+.logo {
+    width: 64px;
+    height: 64px;
+    flex-shrink: 0;
+}
+
+/* arrows */
+
+/* navbar */
+
+/* header */
+header {
+    margin-bottom: 88px;
+}
+.header-title {
+    text-align: center;
+}
+
+.container-intro {
+    width: 1440px;
+    margin: 0 auto;
+    
+}
+
+@media (max-width: 640px) {
+    .custom-center-on-mobile {
+      text-align: center;
+    }
+  }
+
+/* work */
+.work h3 {
+    text-align: center;
+}
+
+#shift-left:hover {
+    background: var(--1---Galactic-Blue, #755CDE);
+}
+
+#shift-right:hover {
+    background: var(--1---Galactic-Blue, #755CDE);
+}
+
+/* consult */
+.container-consult {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.box-consult {
+    width: 1110px;
+    height: 320px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background-color: var(--Black);
+    color: var(--Light-Cream);
+    
+}
+
+/* footer */
+
+
+
